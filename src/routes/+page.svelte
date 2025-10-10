@@ -4,7 +4,6 @@
 	import dashboard from '$lib/assets/dashboard.avif';
 	import msfs from '$lib/assets/dataflow_ms.jpg';
 	import AnimatedBeamMultipleInput from '$lib/components/ui/AnimatedBeamMultipleInput.svelte';
-	import Team from '../lib/components/Team.svelte';
 	import Card from '../lib/components/Card.svelte';
 	import Social from '$lib/components/Social.svelte';
 </script>
@@ -122,16 +121,6 @@
 	class="mb-5 flex w-full justify-center bg-gradient-to-b from-slate-50 to-slate-100 px-5 py-10 lg:px-44 lg:py-20"
 >
 	<img src={msfs} class="drop-shadow-lg" alt="" />
-</div>
-
-<h1 class="m-auto p-4 text-center text-3xl font-semibold">
-	Our <span
-		class="bg-gradient-to-r from-[#3546ff] via-[#5aa6f8] to-blue-700 bg-clip-text text-transparent"
-		>Team</span
-	>
-</h1>
-<div class="mb-20 grid grid-cols-4 py-4">
-	<Team />
 </div>
 
 <div class="grid grid-cols-4 border-2 border-t-gray-300 bg-slate-100 text-center text-lg">
